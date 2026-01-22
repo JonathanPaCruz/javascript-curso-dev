@@ -1,5 +1,17 @@
-// Alertas
+// Alert
+alert('Hola Mundo!');
 
-// alert('Esta es una alerta de assets/js/alert.js');
+// let nombre = prompt('¿Cuál es tu nombre?', 'John Doe');
+console.log('Bienvenido: ' + nombre);
 
-console.log(miNombre);
+// Prompt
+// Imprime un string vacío, si el usuario no ingresa nada en el prompt y solo da clic en "aceptar"
+let nombre = prompt('¿Cuál es tu nombre?');
+console.log(nombre);// ''
+console.log('****' + nombre + '****');// ''
+
+// Confirm
+const selection = confirm('¿Está seguro de borrar esto?'); // Regresa booleanos true o false
+console.log(selection);
+
+console.log(global);
