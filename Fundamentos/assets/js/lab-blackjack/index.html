@@ -4,11 +4,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
   <title>Blackjack</title>
 </head>
 
 <body>
+  <header class="titulo">
+    blackjack
+  </header>
+
+  <div class="row mt-2">
+    <div class="col text-center">
+      <button class="btn btn-danger">Nuevo juego</button>
+      <button class="btn btn-primary">Pedir carta</button>
+      <button class="btn btn-primary">Detener</button>
+    </div>
+  </div>
+
+  <div class="row container">
+    <div class="col">
+      <h1>Jugador 1 - <small>0</small></h1>
+      <div id="jugador-cartas">
+        <img class="carta" src="assets/cartas/10C.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="row container">
+    <div class="col">
+      <h1>CPU - <small>0</small></h1>
+      <div id="cpu-cartas">
+        <img class="carta" src="assets/cartas/2C.png" alt="">
+      </div>
+    </div>
+  </div>
+
   <script src="js/main.js"></script>
 </body>
 
